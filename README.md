@@ -1,58 +1,130 @@
-# 🏧 ATM Machine Simulation (Java OOP)
+# 🏧 ATM Machine Simulation (Java)
 
-A console-based ATM Machine Simulation built using **Java** and **Object-Oriented Programming (OOP)** principles.  
-This project mimics basic ATM functionalities and demonstrates clean code structure, modular design, and practical application of Java concepts.
+A console-based ATM Machine Simulation built using **Java**.  
+This project mimics basic ATM functionalities such as balance inquiry, withdrawal, and deposit using a simple menu-driven interface.
 
----
-
-## 🚀 Project Overview
-
-This application simulates how an ATM works, allowing users to perform common banking operations such as:
-
-- Balance Inquiry
-- Cash Withdrawal
-- Deposit Money
-- User Authentication (PIN Verification)
-
-The primary objective of this project is to strengthen understanding of **Java fundamentals** and **OOP concepts** through a real-world inspired system.
+The application was created for practicing **Java programming** and **Object-Oriented Programming (OOP)** concepts.
 
 ---
 
-## ✨ Features
+## 🚀 Features
 
-✔ Secure PIN-based authentication  
+✔ PIN-based authentication  
 ✔ Check account balance  
-✔ Withdraw cash with validation  
+✔ Withdraw money with validation  
 ✔ Deposit money  
 ✔ Menu-driven console interface  
-✔ Input validation & basic error handling  
-✔ Modular and readable class design  
+✔ Continuous transaction flow  
+✔ Basic input handling  
 
 ---
 
-## 🧠 OOP Concepts Used
+## 🧠 Concepts Used
 
-This project demonstrates core Object-Oriented Programming concepts:
+This project demonstrates fundamental Java concepts:
 
-- **Classes & Objects**
-- **Encapsulation**
-- **Abstraction**
-- **Method-based behavior**
-- **Separation of Concerns**
+- Classes & Objects
+- Methods & Control Flow
+- Static Variables
+- Conditional Statements
+- User Input (Scanner)
+- Basic Program Design
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technology Stack
 
-- **Language:** Java  
-- **Paradigm:** Object-Oriented Programming  
+- **Language:** Java
 - **Interface:** Console (CLI)
+
+---
+
+## 📂 Project Structure
+
+```
+ATM_Machine/
+│── ATM_Machine.java
+```
+
+The file contains:
+
+- `ATM` class → Handles ATM operations & logic  
+- `ATM_Machine` class → Contains the `main()` method  
 
 ---
 
 ## ▶️ How to Run
 
-### 1️⃣ Clone the repository
+### 1️⃣ Compile the program
 
 ```bash
-git clone https://github.com/ayushmaan2212/ATM-Machine.git
+javac ATM_Machine.java
+```
+
+### 2️⃣ Run the program
+
+```bash
+java ATM_Machine
+```
+
+---
+
+## 🔐 Default PIN
+
+For demonstration purposes:
+
+**PIN:** `5654`
+
+*(Hardcoded for learning project)*
+
+---
+
+## 💡 Available Operations
+
+1. Check A/C Balance  
+2. Withdraw Money  
+3. Deposit Money  
+4. Exit  
+
+---
+
+## 🖥️ Sample Output
+
+```
+Enter your PIN:
+1. Check A/C Balance
+2. Withdraw Money
+3. Deposite Money
+4. Exit
+Enter a choice:
+```
+
+---
+
+## 🎯 Purpose of Project
+
+This project was built to:
+
+✔ Practice Java fundamentals  
+✔ Understand program flow  
+✔ Apply basic OOP concepts  
+✔ Simulate simple banking logic  
+
+---
+
+## 🔮 Future Improvements
+
+Possible enhancements:
+
+- Multiple user accounts
+- Persistent storage (File / Database)
+- Transaction history
+- Improved validation & security
+- Graphical User Interface (GUI)
+
+---
+
+## 👨‍💻 Author
+
+**Ayushmaan Singh**  
+Java Developer | Learning & Building 🚀
