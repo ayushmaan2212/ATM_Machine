@@ -126,5 +126,4 @@ Possible enhancements:
 
 ## 👨‍💻 Author
 
-**Ayushmaan Singh**  
-Java Developer | Learning & Building 🚀
+**Ayushmaan Singh**
