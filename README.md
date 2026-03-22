@@ -111,7 +111,6 @@ This project was built to:
 ✔ Simulate simple banking logic  
 
 ---
-
 ## 🔮 Future Improvements
 
 Possible enhancements:
